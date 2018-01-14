@@ -290,5 +290,4 @@ var ru2jp_all = translate_all.bind(this, "ru_jp");
 
 jp2ru_all("option, article li, .result td[style]");
 
-
 // Ссылка на оригинальный скрипт: http://drakeirving.github.io/touhoudict/
