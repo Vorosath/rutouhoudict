@@ -1,3 +1,8 @@
+// Для запуска скрипта: 
+// Скопируйте код. 
+// Перейдите на нужную страницу голосования, откройте консоль своего браузера (с помощью F12),
+// затем вставьте ее в консоль и запустите. 
+
 var touhoudict = {
   "ru_jp":{
     "characters": {
@@ -284,5 +289,6 @@ var ru2jp_all = translate_all.bind(this, "ru_jp");
 // actually run now
 
 jp2ru_all("option, article li, .result td[style]");
+
 
 // Ссылка на оригинальный скрипт: http://drakeirving.github.io/touhoudict/
